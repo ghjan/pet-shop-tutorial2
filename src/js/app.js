@@ -99,7 +99,7 @@ App = {
                     from: account
                 });
             }).then(function(result) {
-                App.sleep_ms(1000);
+                App.sleep_ms(2000);
                 return App.markAdopted();
             }).catch(function(err) {
                 console.log(err.message);
